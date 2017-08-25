@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 sudo add-apt-repository ppa:ondrej/php
-sudo apt-get update && sudo apt-get install php7.1
+sudo apt-get install -y php7.1
 sudo apt-get install -y php7.1-xml
 sudo apt-get install -y php7.1-xsl
 sudo apt-get install -y php7.1-mbstring

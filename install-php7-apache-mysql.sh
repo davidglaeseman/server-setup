@@ -24,6 +24,7 @@ sudo apt-get install -y php7.1-common
 sudo apt-get install -y php7.1-mbstring
 sudo apt-get install -y php7.1-intl
 sudo apt-get install -y php7.1-zip
+sudo apt-get install -y php7.1-bcmath
 
 sudo a2dismod mpm_event && sudo a2enmod mpm_prefork && sudo a2enmod php7.1
 

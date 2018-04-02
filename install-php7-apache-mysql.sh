@@ -40,7 +40,7 @@ sudo apt-get install python-certbot-apache
 
 # Install MYSQL
 sudo apt-get install -y mysql-server
-# enter the password: XwEMdPXvcT8jjk4Ah2+*;6%H)$3QZt8=M2HF
+# enter the password: 
 
 # Install Composer & Make Global
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"

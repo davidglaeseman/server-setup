@@ -92,4 +92,5 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt autoremove -y
 rm ~/php7.sh
 
+sh ~/emailme.sh
 sudo reboot

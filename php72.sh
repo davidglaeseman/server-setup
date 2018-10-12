@@ -67,5 +67,6 @@ echo '#!/bin/bash' > ~/certbot.sh
 echo 'sudo certbot --apache' >> ~/certbot.sh
 chmod +x ~/certbot.sh
 
+rm ~/php72.sh
 
 sudo reboot

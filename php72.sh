@@ -70,12 +70,11 @@ chmod +x ~/certbot.sh
 
 ip=$(hostname -I)
 name=$(hostname)
-
 curl -s --user 'api:key-db63837f56861c8a049a9b4513e5bc53' \
 https://api.mailgun.net/v3/sandboxfdece7a4462f4dd3b3159aa76a28804d.mailgun.org/messages \
 -F from='Machine <machine@new-server-setup.com>' \
 -F to=contact@davidglaeseman.com \
--F subject='New Server Setup: '$name \
+-F subject='PHP Installed -- Upgrades Complete: '$name \
 -F html='Setup Is Complete: You may now ssh into <br /> ssh root@'$ip \
 
 sudo reboot

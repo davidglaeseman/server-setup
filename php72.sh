@@ -90,6 +90,6 @@ echo '<VirtualHost *:80>
 # Run update and Upgrade one last time before deleting this file and rebooting
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt autoremove -y
-rm ~/php72.sh
+rm ~/php7.sh
 
 sudo reboot
